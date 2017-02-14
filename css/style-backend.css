@@ -1,0 +1,65 @@
+body {
+	padding-top: 0;
+	padding-bottom: 40px;
+	background-color: #f5f5f5;
+}
+
+
+@media (min-width: 979px){
+    body {
+            padding-top: 60px;
+    }
+}
+
+.container {
+	width: 90%;
+}
+
+#admin-top h3 {
+	float: left;
+}
+
+.logout-btn {
+	float: right;
+	margin-top: 20px;
+}
+
+#admin-mid {
+	margin-top: 100px;
+	clear: both;
+}
+
+td {
+	padding: 20px;
+}
+
+table select {
+	width: 120px;
+}
+
+.td-actions button {
+	float: left;
+}
+
+.case-add-button {
+	margin-bottom: 20px;
+}
+
+.case-form-field-buttons {
+	margin-top: 20px;
+}
+
+.case-edit-button {
+	margin-bottom: 5px;
+}
+
+
+.login > .span4 {
+  margin: 0 auto;
+  float: none;
+}
+.login + .ssl-container { text-align: center; }
+
+#admin-mid .case-edit-button {
+margin-right: 5px;
+}

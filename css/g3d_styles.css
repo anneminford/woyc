@@ -1,0 +1,541 @@
+/* WOYC Shopify Application Custom G3D Designer Styles */
+/* Version 2.0 */
+/* Copyright 2016 Inspiradigital */
+/* <jedv@inspiradigital.co.uk> */
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* MOBILE */
+
+.mobile body {
+    background: #f1f1f1;
+}
+.mobile .middle {
+    height: auto!important;
+}
+.mobile .button-dark {
+    background-image: none;
+    background-color: #fff;
+}
+
+.mobile .button>label, .mobile .button-dark>label, .mobile .button-light>label {
+    color: #161616;
+    font-size: 10px;
+}
+
+.mobile .button-light {
+    background-image: none;
+    background-color: #fff;
+}
+
+.mobile .button, .mobile .button-dark, .mobile .button-light {
+    width: 60px;
+    height: 60px;
+    padding: 12px 0 10px;
+}
+
+.mobile .core>.bottom>div.image>.icon {
+    background-image: url(/images/image.png);
+    background-size: 28px 20px;
+}
+.mobile .core>.bottom>div.text>.icon {
+    background-image: url(/images/text.png);
+    background-size: 18px 21px;
+}
+.mobile .core>.bottom>div.background>.icon {
+    background-image: url(/images/background.png);
+    background-size: 20px 20px;
+}
+.mobile .core>.bottom>div.bigger>.icon {
+    background-image: url(/images/bigger.png);
+    background-size: 21px 20px;
+}
+.mobile .core>.bottom>div.smaller>.icon {
+    background-image: url(/images/smaller.png);
+    background-size: 21px 1px;
+}
+.add-image-popup.popup > section.sources > .source > label {
+    font-size: 10px; color:#161616;
+}
+.mobile .core>.bottom>div.rotate-left>.icon {
+    background-image: url(/images/rotate-left.png);
+    background-size: 20px 20px;
+}
+.mobile .core>.bottom>div.rotate-right>.icon {
+    background-image: url(/images/rotate-right.png);
+    background-size: 20px 20px;
+}
+.mobile .core>.top>div.add-to-cart>.icon {
+    background-image: url(/images/a2c.png);
+    background-size: 30px 20px;
+}
+.mobile .core > .top > div.menu > .icon, .mobile .button.back>.icon, .mobile .back.button-dark>.icon, .mobile .back.button-light>.icon {
+    background-image: url(/images/menu.png);
+    background-size: 10px 20px;
+}
+.mobile .add-image-popup.popup>section.sources>.source>.icon {
+    background-color: #fff;
+    text-align: center;
+    /*border-radius: 5px;*/
+    margin: 0 auto;
+}
+
+.mobile .core>.top>div.add-to-cart {
+    width: 80px;
+}
+
+.mobile .add-image-popup.popup>section.sources>.source.my-computer>.icon {
+    background-image: url(/images/computer.png);
+    background-size: 23px 27px;
+}
+.mobile .add-image-popup.popup>section.sources>.source.online>.icon {
+    background-image: url(/images/online.png);
+    background-size: 27px 27px;
+}
+.mobile .add-image-popup.popup>section.sources>.source.gallery>.icon {
+    background-image: url(/images/gallery.png);
+    background-size: 27px 27px;
+}
+
+.add-image-popup.popup>section.sources>.source {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+    padding: 15px 0;
+}
+.mobile .add-image-popup.popup>section.sources>.source>.icon {
+    height: 27px;
+    width: 27px;
+}
+.mobile article.popup h1 {
+    font-size:12px;
+}
+.mobile .button>.icon, .mobile .button-dark>.icon, .mobile .button-light>.icon {
+    height: 20px;
+}
+.social.facebook {
+    background-image: url(/images/facebook.png);
+}
+.social.google {
+    background-image: url(/images/google.png);
+}
+.social.instagram {
+    background-image: url(/images/instagram.png);
+}
+.social.flickr {
+    background-image: url(/images/flickr.png);
+}
+.social {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 5px;
+    background-size: 70px 70px;
+    border-radius: 10px;
+}
+.mobile .add-image-popup.popup>section.select {
+    text-align: center;
+}
+.select div, .select input {
+    font-size: 10px;
+    color: #161616;
+}
+.select input {
+    margin-top:20px;
+}
+.gallery-list select {
+    cursor: pointer;
+    border: 0;
+    height: 30px;
+    width: 230px;
+    padding-left: 12px;
+}
+.add-image-popup.popup>section.select .gallery-image>img {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.add-image-popup.popup>section.select .gallery-image {
+    width: 70px;
+    height: 70px;
+    
+}
+.mobile article.popup h1 {font-size: 12px!important;color: #161616!important;}
+.text-area option {font-size:10px;}
+/*.mobile .text-area ul.colours>li {box-shadow: none; border-radius: 10px;}*/
+ul.colours>li {
+    width: 33px!important;
+    height: 33px!important;
+    border-radius: 10px!important;
+    box-shadow: none!important;
+}
+.mobile article.popup>section {
+    font-size: 0.8em;
+    margin: 15px
+}
+
+/*@media only screen 
+  and (min-device-width: 348px) 
+  and (max-device-width: 429px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .mobile .middle {
+    height: 74%;
+}
+*/
+
+/* DESKTOP */
+
+.desktop .core {
+    background-color: #f1f1f1;
+}
+
+.desktop .core>.top {
+    background-color: #161616;
+}
+
+.desktop .core>.middle #renderer .image-areas .image-area.active>.add, 
+.desktop .core>.middle>.right .image-areas .image-area.active>.add, 
+.desktop .core>.middle>.left .image-areas .image-area.active>.add,
+.desktop .core>.middle #renderer .image-areas .image-area>.add, 
+.desktop .core>.middle>.right .image-areas .image-area>.add, 
+.desktop .core>.middle>.left .image-areas .image-area>.add {
+   border:0;
+   background-color: #fff;
+   background-size:60px 60px;
+   background-image: url(/images/add-image.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   color: #161616;
+}
+
+/*.desktop .core>.middle #renderer .image-areas .image-area>.add, 
+.desktop .core>.middle>.right .image-areas .image-area>.add, 
+.desktop .core>.middle>.left .image-areas .image-area>.add {
+   border-color:#161616;
+   background-color: #fff;
+   background-size:60px 60px;
+   background-image: url(/images/add-image.png);
+   background-repeat: no-repeat;
+   background-position: center;
+    color: #fff;
+}*/
+
+/*.desktop .core>.middle #renderer .image-areas .image-area.active>.add, 
+.desktop .core>.middle>.right .image-areas .image-area.active>.add, 
+.desktop .core>.middle>.left .image-areas .image-area.active>.add, 
+.desktop .core>.middle #renderer .image-areas .image-area>.add, 
+.desktop .core>.middle>.right .image-areas .image-area>.add, 
+.desktop .core>.middle>.left .image-areas .image-area>.add {height:70px; width:70px;}*/
+
+.desktop .core>.middle>.left .image-areas .image-area>.add>.label>label {
+    padding-top: 30px;
+    font-size: 10px;
+    line-height: 10px;
+}
+
+
+.desktop .core>.middle {
+    padding-top: 28px;
+}
+
+.desktop .core>.middle #renderer .image-areas .image-area>.layering>.up,
+.desktop .core>.middle>.right .image-areas .image-area>.layering>.up,
+.desktop .core>.middle>.left .image-areas .image-area>.layering>.up {
+    background: #fff url(/images/up.png) no-repeat center;
+    background-size: 11px 6px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.desktop .core>.middle #renderer .image-areas .image-area>.layering>.down,
+.desktop .core>.middle>.right .image-areas .image-area>.layering>.down,
+.desktop .core>.middle>.left .image-areas .image-area>.layering>.down {
+    background: #fff url(/images/down.png) no-repeat center;
+    background-size: 11px 6px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.desktop .core>.middle #renderer .image-areas .image-area>.reset, .desktop .core>.middle>.right .image-areas .image-area>.reset, .desktop .core>.middle>.left .image-areas .image-area>.reset {
+    background-image: url(/images/trash.png);
+    background-size: 15px 27px;
+    width: 15px;
+    height: 27px;
+}
+
+.desktop .add-image-popup.popup>section {
+    height: 100%;
+    margin-right: 0;
+}
+
+.desktop .add-image-popup.popup {
+    background-color: #f1f1f1;
+}
+
+.desktop .core>.top ul li.images:hover,
+.desktop .core>.top ul li.images.active {
+    background-image: url(/images/images.png);
+}
+
+.desktop .core>.top ul li.images {
+    background-image: url(/images/images-hover.png);
+}
+
+.desktop .core>.top ul li.text:hover,
+.desktop .core>.top ul li.text.active {
+    background-image: url(/images/text.png);  
+}
+
+.desktop .core>.top ul li.text {
+    background-image: url(/images/text-hover.png);
+}
+
+.desktop .core>.top ul li.colour:hover,
+.desktop .core>.top ul li.colour.active {
+    background-image: url(/images/colour.png);  
+}
+
+.desktop .core>.top ul li.colour {
+    background-image: url(/images/colour-hover.png);
+}
+
+.desktop .core>.top div.price {
+    color:#fff;
+    font-size: 10px;
+}
+
+.desktop .core>.middle #renderer>div>.fill-message {
+    color:#000;
+    font-size: 10px;
+}
+
+.ui-widget-content {
+    border: 2px #161616;
+    background: #161616 !important;
+    margin-bottom: 16px;
+}
+
+.ui-slider-horizontal {
+    height: 1px;
+}
+
+.ui-state-default {
+    background: #fff !important;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -.6em;
+}
+
+.ui-state-default, 
+.ui-widget-content 
+.ui-state-default, 
+.ui-widget-header .ui-state-default {
+    border: 1px solid #161616;
+}
+
+.desktop .core>.middle>.right>div {
+    clear: both;
+    color: #161616;    
+    background-color: #fff;
+    border-radius: 10px;
+    float: right;
+    font-size: 10px;
+    height: 60px;
+    width: 120px;
+    margin: 10px 20px 0;
+    padding: 20px;
+}
+
+.desktop .core>.middle>.right .centre>.icon:hover,
+.desktop .core>.middle>.right .centre>.icon {
+    background: transparent url(/images/center.png) no-repeat center;
+    background-size: 24px 24px;
+    height: 38px;
+    width: 26px;
+    margin-bottom: 0;
+}
+
+.desktop .core>.middle>.right>div.flip,
+.desktop .core>.middle>.right>div.centre {
+    height: 60px;
+    width: 60px;
+    padding: 0;
+}
+
+.desktop .core>.middle>.right .flip.horizontal>.icon {
+    background: url(/images/rotate-left.png) no-repeat center;
+    background-size: 24px 21px;
+    height: 38px;
+    width: 100%
+}
+
+.desktop .core>.middle>.right .flip.vertical>.icon {
+    background: url(/images/rotate-right.png) no-repeat center;
+    background-size: 24px 21px;
+    height: 38px;
+    width: 100%
+}
+
+.desktop button {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #fff url(/images/preview.png) no-repeat center 12px;
+    background-size: 11px 21px;
+    clear: both;
+    color: #161616;
+    float: right;
+    font-size: 10px;
+    height: 60px;
+    margin: 10px 20px 0;
+    padding-top: 30px;
+    width: 120px;
+}
+.desktop button.back {
+    background: #fff url(/images/menu.png) no-repeat center 12px;
+    background-size: 11px 21px;
+}
+
+.desktop .core>.middle #renderer .image-areas .image-area, 
+.desktop .core>.middle>.right .image-areas .image-area, 
+.desktop .core>.middle>.left .image-areas .image-area {
+    margin: 0 0 10px 20px;
+}
+
+.desktop .images,
+.desktop .core>.middle>.right {
+    padding-top: 28px;
+}
+
+.desktop ul.colours>li {
+    width: 22px!important;
+    height: 22px!important;
+    border-radius: 5px!important;
+    box-shadow: none!important;
+}
+
+.desktop .add-image-popup.popup>section.sources>.source.my-computer>.icon {  
+    background: #fff url(/images/computer.png) no-repeat center 12px;
+    background-size: 24px 28px;
+    height: 44px;
+    width: 24px;
+}
+
+.desktop .add-image-popup.popup>section.sources>.source.gallery>.icon {
+    background: #fff url(/images/gallery.png) no-repeat center 12px;
+    background-size: 27px 27px;
+    height: 44px;
+    width: 27px;
+}
+
+.desktop .add-image-popup.popup>section.sources>.source.online>.icon {
+    background: #fff url(/images/online.png) no-repeat center 12px;
+    background-size: 28px 28px;
+    height: 44px;
+    width: 28px;
+}
+
+.desktop .add-image-popup.popup>section.sources>.source {
+    padding: 0;
+    margin: 0 60px 10px;
+}
+.desktop .add-image-popup.popup>section.sources>.source:first-child {
+    margin-top: 28px;
+}
+
+.add-image-popup.popup>section>div.back {
+    height: 22px;
+}
+
+.desktop .add-image-popup.popup>section div.back>label {
+    font-size: 10px;
+    margin-left: 6px;
+    color: #161616;
+}
+.desktop .add-image-popup.popup>section div.back>div.icon {
+    background: url(/images/menu.png) no-repeat;
+    background-size: 11px 21px;
+    height: 22px;
+}
+.desktop .core>.middle #renderer .text-areas .text-area textarea,
+.desktop .core>.middle>.right .text-areas .text-area textarea,
+.desktop .core>.middle>.left .text-areas .text-area textarea {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    height: 60px;
+    margin: 10px 0 0;
+}
+
+.desktop .core>.middle>.left .text-areas .text-area span {
+    font-size: 10px;
+}
+
+.desktop .styled-select {
+    border: 1px solid #fff;
+}
+
+/*.desktop .styled-select img {
+    display: none;
+}*/
+
+.desktop .styled-select>.arrows>.arrow.up {
+    background-image: url(/images/select-up.png);
+    background-size: 9px 5px;
+}
+
+.desktop .styled-select>.arrows>.arrow.down {
+    background-image: url(/images/select-down.png);
+    background-size: 9px 5px;
+}
+
+.desktop .styled-select>.arrows>.arrow {
+    border: none;
+}
+
+.desktop .add-image-popup.popup>section {
+    background: #f1f1f1;
+}
+
+.desktop .add-image-popup.popup>section.sources {
+    width: 230px;
+    background: #f1f1f1 url(/images/shadow.png) repeat-y left top;
+    }
+
+.desktop .add-image-popup.popup>section.select>.my-computer>div {
+    background: #fff url(/images/filemanager.png) no-repeat scroll center 5px / 27px 27px;
+    width:70px;
+    height: 70px;
+}
+
+.desktop .add-image-popup.popup > section.select > .my-computer > div > label {
+    color: #161616;
+    padding-top: 30px;
+    font-size: 10px;
+}
+.desktop.right.preview button:nth-of-type(2) {
+    background: #fff url(/images/a2c.png) no-repeat scroll center 10px / 33px 21px;
+}
+
+.desktop .add-image-popup.popup > section.select .gallery-image {
+    height: 90px;
+    width: 80px;
+    background: #f1f1f1 url(/images/missing-image.png) no-repeat bottom center / 70px 70px;
+    border-radius: 10px;
+}
+
+.desktop .add-image-popup.popup > section.select .gallery-image div {
+    margin-bottom: 10px;
+}
+
+.desktop .add-image-popup.popup > section.select .gallery-image  img {
+    display: none;
+}
+
+.desktop .core>.middle #renderer .image-areas .image-area>.add, 
+.desktop .core>.middle>.right .image-areas .image-area>.add, 
+.desktop .core>.middle>.left .image-areas .image-area>.add {border-radius:10px;}
